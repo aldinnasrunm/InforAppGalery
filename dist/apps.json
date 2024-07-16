@@ -3,101 +3,94 @@
         "name": "Education Game",
         "description": "Access various education game.",
         "url": "https://slbrahmawatikholid.sch.id/game/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/game-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/game-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Adinda Laundry",
         "description": "Laundry management system.",
         "url": "https://www.adindalaundry.my.id/admin/dashboard",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg"
-        
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg",         
+        "type" : "web"
     },
     {
         "name": "E-Presensi",
         "description": "Online attendance system.",
         "url": "https://www.e-presensi.my.id",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Wordwell",
         "description": "Lorem ipsum.",
         "url": "https://fe-wordwell.vercel.app",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wordwell-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wordwell-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Stress Detection",
         "description": "Detect stress levels.",
         "url": "https://stressdetection.streamlit.app/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stresslevel-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stresslevel-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Pajak Air",
         "description": "Water tax management system.",
         "url": "http://pajakairrt.my.id/admin/login",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg"
-
-    },
-    
-    {
-        "name": "Pajak Air",
-        "description": "Water tax management system.",
-        "url": "http://pajakairrt.my.id/admin/login",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Simkeu SMP Muhammadiyah Salatiga",
         "description": "Lorem ipsum.",
         "url": "https://simkeu.smpmuhsalatiga.sch.id/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stressimkeu-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/simkeu-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "SIABK SMP 02 RL",
         "description": "Lorem ipsum.",
         "url": "https://siabk-smpn02rl.my.id/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg",
+        "type" : "web"
     },
     
     {
         "name": "Advokat JW",
         "description": "Lorem ipsum.",
         "url": "http://kantor-advokat-jw.my.id/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/advokat-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/advokat-bg.jpg",
+        "type" : "web"
     },
     {
         "name": "Mukmeen",
         "description": "Lorem ipsum.",
         "url": "https://play.google.com/store/apps/details?id=com.chindo.mukmeen",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/mukmeen-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/mukmeen-bg.jpg",
+        "type" : "android"
     },
     {
         "name": "GameTematik anak Sekolah Dasar",
         "description": "Lorem ipsum.",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_downftn01.Game_Tematik",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stressimkeu-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/tematik-bg.jpg",
+        "type" : "android"
     },
     {
         "name": "Game Aksara Huruf usia dini",
         "description": "Lorem ipsum.",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_alfianmakruf99.Aksara_Edugame",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/aksara-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/aksara-bg.jpg",
+        "type" : "android"
     },
     
     {
         "name": "Game pengenalan gambar ABK",
         "description": "Lorem ipsum.",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_l200190102.Pengenalan_Bangun_Datar_dan_Warna",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg"
-
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
+        "type" : "android"
     }
 
 ]
