@@ -39,5 +39,65 @@
         "url": "http://pajakairrt.my.id/admin/login",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg"
 
+    },
+    
+    {
+        "name": "Pajak Air",
+        "description": "Water tax management system.",
+        "url": "http://pajakairrt.my.id/admin/login",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg"
+
+    },
+    {
+        "name": "Simkeu SMP Muhammadiyah Salatiga",
+        "description": "Lorem ipsum.",
+        "url": "https://simkeu.smpmuhsalatiga.sch.id/",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stressimkeu-bg.jpg"
+
+    },
+    {
+        "name": "SIABK SMP 02 RL",
+        "description": "Lorem ipsum.",
+        "url": "https://siabk-smpn02rl.my.id/",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg"
+
+    },
+    
+    {
+        "name": "Advokat JW",
+        "description": "Lorem ipsum.",
+        "url": "http://kantor-advokat-jw.my.id/",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/advokat-bg.jpg"
+
+    },
+    {
+        "name": "Mukmeen",
+        "description": "Lorem ipsum.",
+        "url": "https://play.google.com/store/apps/details?id=com.chindo.mukmeen",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/mukmeen-bg.jpg"
+
+    },
+    {
+        "name": "GameTematik anak Sekolah Dasar",
+        "description": "Lorem ipsum.",
+        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_downftn01.Game_Tematik",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stressimkeu-bg.jpg"
+
+    },
+    {
+        "name": "Game Aksara Huruf usia dini",
+        "description": "Lorem ipsum.",
+        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_alfianmakruf99.Aksara_Edugame",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/aksara-bg.jpg"
+
+    },
+    
+    {
+        "name": "Game pengenalan gambar ABK",
+        "description": "Lorem ipsum.",
+        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_l200190102.Pengenalan_Bangun_Datar_dan_Warna",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg"
+
     }
+
 ]
