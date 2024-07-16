@@ -10,6 +10,11 @@
         body {
             background: url('./images/bg.png') no-repeat center center fixed;
             background-size: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            width: 100vw;
         }
 
         .scrolling-wrapper {
@@ -33,6 +38,8 @@
             margin-right: 1rem; /* Margin between items */
             display: flex; /* Ensure flex container */
         }
+
+
         .bg_item {
             width: 100%;
             height: 100%;
@@ -40,18 +47,23 @@
             flex-direction: column;
             justify-content: flex-end; /* Align content to bottom */
             padding: 2rem;
-            background-color: rgba(0, 0, 0, 0.234); /* Semi-transparent background for text */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
             border-radius: 10px;
         }
     </style>
 </head>
 
-<body class="text-white font-sans p-36">
+<body class="text-white font-sans p-24 flex flex-col justify-between">
     <div class="container">
         <div class="hero-inner">
+            <div class="image-logo flex flex-row px-4 py-4 mb-2 items-center justify-center rounded-full bg-white w-52">
+                <image src="./images/logo-inf.png" alt="Informatika UMS" class="h-8 object-contain">
+                <image src="./images/Resmi_Logo_UMS_Color_ShortText-768x300.png" alt="Informatika UMS" class="h-8 object-contain">
+            
+            </div>
             <h1 class="text-8xl font-bold">Informatika UMS<br>App Arena</h1>
             <br>
-            <p class="text-xl font-normal">Explore the latest innovations and tech solutions from Informatika UMS.</p>
+            <p class="text-xl font-normal text-neutral-300 font-normal">Explore the latest innovations and tech solutions from Informatika UMS.</p>
         </div>
     </div>
 
@@ -68,22 +80,26 @@
             $.getJSON('apps.json', function(data) {
                 var appList = $('#app-list');
                 $.each(data, function(index, app) {
+                    var appIcon = "./images/Web.svg";
+                    if(app.type == "android"){
+                        appIcon = "./images/Android.svg";
+                    }
+
                     var appItem =  
-                    `
-                     
-                    <div class="app-item flex-none w-[32rem] h-[18rem] rounded-lg shadow-lg bg-cover" style="background-image: url('${app.bg}')">  
+                    `<div class="border app-item flex-none w-[32rem] h-[23rem] rounded-2xl shadow-lg bg-cover" style="background-image: url('${app.bg}')">
                         <div class="bg_item flex flex-col justify-end">
-                            <div class="flex items-center justify-center w-20 h-20 bg-white rounded-full p-2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-white rounded-full p-2">
                                 <img src="${app.bg}" alt="${app.name}" class="w-full h-full object-contain">
                             </div>
-    
-                            <h2 class="text-xl font-semibold">${app.name}</h2>
-                            <p class="text-sm">${app.description}</p>
-                            <a href="${app.url}" class="text-blue-300 hover:text-blue-100" target="_blank">Visit</a>
+                            <h2 class="text-2xl font-semibold pt-2">${app.name}</h2>
+                            <p class="text-sm text-gray-400 ">${app.description}</p>
+                            <div class="flex flex-row items-center py-2">
+                                <img src="${appIcon}" class="w-6 h-6 mr-2">
+                                <p class="text-xl">${app.type}</p>
+                            </div>    
+                            <a href="${app.url}" class="mt-2 inline-block px-4 py-2 bg-blue-500 text-center text-white rounded-lg hover:bg-blue-700 whitespace-nowrap font-medium text-lg" target="_blank">Visit</a>
                         </div>
-                    </div>
-                    
-                    `;
+                    </div>`;
                     appList.append(appItem);
                 });
 

@@ -1,85 +1,85 @@
 [
     {
-        "name": "Education Game",
-        "description": "Access various education game.",
+        "name": "Game SLB Rahmawati",
+        "description": "Game SLB Rahmawati Kholid Karanganyar",
         "url": "https://slbrahmawatikholid.sch.id/game/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/game-bg.jpg",
         "type" : "web"
     },
     {
         "name": "Adinda Laundry",
-        "description": "Laundry management system.",
+        "description": "Laundry management system",
         "url": "https://www.adindalaundry.my.id/admin/dashboard",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg",         
         "type" : "web"
     },
     {
         "name": "E-Presensi",
-        "description": "Online attendance system.",
+        "description": "Online attendance system",
         "url": "https://www.e-presensi.my.id",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg",
         "type" : "web"
     },
     {
         "name": "Wordwell",
-        "description": "Lorem ipsum.",
+        "description": "AI bad word detection system",
         "url": "https://fe-wordwell.vercel.app",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wordwell-bg.jpg",
         "type" : "web"
     },
     {
         "name": "Stress Detection",
-        "description": "Detect stress levels.",
+        "description": "Detect stress levels using AI",
         "url": "https://stressdetection.streamlit.app/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stresslevel-bg.jpg",
         "type" : "web"
     },
     {
-        "name": "Pajak Air",
-        "description": "Water tax management system.",
+        "name": "Pajak Air RT",
+        "description": "Water tax management system",
         "url": "http://pajakairrt.my.id/admin/login",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg",
         "type" : "web"
     },
     {
-        "name": "Simkeu SMP Muhammadiyah Salatiga",
-        "description": "Lorem ipsum.",
+        "name": "SIMKEU SMP Muh Salatiga",
+        "description": "Sistem keuangan untuk SMP Muhammadiyah Salatiga",
         "url": "https://simkeu.smpmuhsalatiga.sch.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/simkeu-bg.jpg",
         "type" : "web"
     },
     {
         "name": "SIABK SMP 02 RL",
-        "description": "Lorem ipsum.",
+        "description": "Sistem Informasi Administrasi Bimbingan Konseling SMPN 02 Rejang Lebong",
         "url": "https://siabk-smpn02rl.my.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg",
         "type" : "web"
     },
     
     {
-        "name": "Advokat JW",
-        "description": "Lorem ipsum.",
+        "name": "Data Perkara Advokat JW",
+        "description": "Sistem administrasi data perkara advokat Juned Wijayatmo & Rekan",
         "url": "http://kantor-advokat-jw.my.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/advokat-bg.jpg",
         "type" : "web"
     },
     {
         "name": "Mukmeen",
-        "description": "Lorem ipsum.",
+        "description": "Aplikasi al-quran bahasa isyarat",
         "url": "https://play.google.com/store/apps/details?id=com.chindo.mukmeen",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/mukmeen-bg.jpg",
         "type" : "android"
     },
     {
         "name": "GameTematik anak Sekolah Dasar",
-        "description": "Lorem ipsum.",
+        "description": "Permainan tematik menyenangkan untuk anak kelas 2 SD ",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_downftn01.Game_Tematik",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/tematik-bg.jpg",
         "type" : "android"
     },
     {
         "name": "Game Aksara Huruf usia dini",
-        "description": "Lorem ipsum.",
+        "description": "Game belajar dengan aksara untuk anak usia dini",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_alfianmakruf99.Aksara_Edugame",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/aksara-bg.jpg",
         "type" : "android"
@@ -87,7 +87,7 @@
     
     {
         "name": "Game pengenalan gambar ABK",
-        "description": "Lorem ipsum.",
+        "description": "Game pengenalan gambar untuk anak berkebutuhan khusus",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_l200190102.Pengenalan_Bangun_Datar_dan_Warna",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
         "type" : "android"
