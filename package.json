@@ -1,0 +1,14 @@
+{
+  "name": "inforappgalery",
+  "version": "1.0.0",
+  "description": "App Galery for CompSci UMS",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style/input.css -o ./dist/style/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Galery Informatika UMS</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        body {
+            background: url('/dist/images/bg.png') no-repeat center center fixed;
+            background-size: auto;
+        }
+
+        .scrolling-wrapper {
+            display: flex;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .scrolling-wrapper::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans p-36">
+    <div class="container">
+        <div class="hero-inner">
+            <h1 class="text-8xl font-bold">Informatika UMS<br>App Arena</h1>
+            <br>
+            <p class="text-xl font-normal">Explore the latest innovations and tech solutions from Informatika UMS.</p>
+        </div>
+    </div>
+
+    <div class="container app-list">
+        <div id="app-list" class="scrolling-wrapper space-x-4">
+            <!-- App items will be inserted here by jQuery -->
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+          $(document).ready(function(){
+            $.getJSON('apps.json', function(data) {
+                var appList = $('#app-list');
+                $.each(data, function(index, app) {
+                    var appItem = 
+                    `<div class="app-item flex-none w-80 p-6 bg-[url('${app.bg}')] rounded-lg shadow-lg">
+                                        <h2 class="text-xl font-semibold">${app.name}</h2>
+                                        <p class="text-sm">${app.description}</p>
+                                        <a href="${app.url}" class="text-blue-300 hover:text-blue-100" target="_blank">Visit</a>
+                                   </div>`;
+                    console.log(appItem);
+                    appList.append(appItem);
+                });
+
+                // Optional: Add event listener to stop scroll on mouse hover
+                $('.scrolling-wrapper').hover(function() {
+                    $(this).stop();
+                }, function() {
+                    scrollHorizontally();
+                });
+            });
+
+            function scrollHorizontally() {
+                var scrollContainer = $('.scrolling-wrapper');
+                scrollContainer.animate({scrollLeft: '+=1'}, 20, 'linear', function() {
+                    if (scrollContainer.scrollLeft() + scrollContainer.innerWidth() >= scrollContainer[0].scrollWidth) {
+                        scrollContainer.scrollLeft(0);
+                    }
+                    scrollHorizontally();
+                });
+            }
+            // Start scrolling on page load
+            // scrollHorizontally();
+        });
+    </script>
+</body>
+
+</html>
