@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <style>
         body {
-            background: url('/dist/images/bg.png') no-repeat center center fixed;
+            background: url('./images/bg.png') no-repeat center center fixed;
             background-size: auto;
         }
 
@@ -20,6 +20,28 @@
         }
         .scrolling-wrapper::-webkit-scrollbar {
             display: none;
+        }
+
+        .app-item {
+            width: 32rem; /* Set fixed width */
+            height: 18rem; /* Adjust height as needed */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative; /* Ensure relative positioning for content */
+            border-radius: 10px;
+            margin-right: 1rem; /* Margin between items */
+            display: flex; /* Ensure flex container */
+        }
+        .bg_item {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; /* Align content to bottom */
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.234); /* Semi-transparent background for text */
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -46,13 +68,22 @@
             $.getJSON('apps.json', function(data) {
                 var appList = $('#app-list');
                 $.each(data, function(index, app) {
-                    var appItem = 
-                    `<div class="app-item flex-none w-80 p-6 bg-[url('${app.bg}')] rounded-lg shadow-lg">
-                                        <h2 class="text-xl font-semibold">${app.name}</h2>
-                                        <p class="text-sm">${app.description}</p>
-                                        <a href="${app.url}" class="text-blue-300 hover:text-blue-100" target="_blank">Visit</a>
-                                   </div>`;
-                    console.log(appItem);
+                    var appItem =  
+                    `
+                     
+                    <div class="app-item flex-none w-[32rem] h-[18rem] rounded-lg shadow-lg bg-cover" style="background-image: url('${app.bg}')">  
+                        <div class="bg_item flex flex-col justify-end">
+                            <div class="flex items-center justify-center w-20 h-20 bg-white rounded-full p-2">
+                                <img src="${app.bg}" alt="${app.name}" class="w-full h-full object-contain">
+                            </div>
+    
+                            <h2 class="text-xl font-semibold">${app.name}</h2>
+                            <p class="text-sm">${app.description}</p>
+                            <a href="${app.url}" class="text-blue-300 hover:text-blue-100" target="_blank">Visit</a>
+                        </div>
+                    </div>
+                    
+                    `;
                     appList.append(appItem);
                 });
 

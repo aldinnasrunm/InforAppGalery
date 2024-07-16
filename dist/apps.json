@@ -3,37 +3,41 @@
         "name": "Education Game",
         "description": "Access various education game.",
         "url": "https://slbrahmawatikholid.sch.id/game/",
-        "bg": "/dist/images/game-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/game-bg.jpg"
     },
     {
         "name": "Adinda Laundry",
         "description": "Laundry management system.",
         "url": "https://www.adindalaundry.my.id/admin/dashboard",
-        "bg": "/dist/images/laundry-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg"
         
     },
     {
         "name": "E-Presensi",
         "description": "Online attendance system.",
         "url": "https://www.e-presensi.my.id",
-        "bg": "/dist/images/presensi-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg"
+
     },
     {
         "name": "Wordwell",
         "description": "Lorem ipsum.",
         "url": "https://fe-wordwell.vercel.app",
-        "bg": "/dist/images/wordwell-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wordwell-bg.jpg"
+
     },
     {
         "name": "Stress Detection",
         "description": "Detect stress levels.",
         "url": "https://stressdetection.streamlit.app/",
-        "bg": "/dist/images/presensi-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stresslevel-bg.jpg"
+
     },
     {
         "name": "Pajak Air",
         "description": "Water tax management system.",
         "url": "http://pajakairrt.my.id/admin/login",
-        "bg": "/dist/images/water-bg.jpg"
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg"
+
     }
 ]
