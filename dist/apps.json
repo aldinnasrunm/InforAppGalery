@@ -96,7 +96,7 @@
     {
         "name": "ChatbotMU",
         "description": "Chatbot seputar kemuhammadiyahan  untuk memberikan informasi otomatis melalui pesan teks",
-        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_l200190102.Pengenalan_Bangun_Datar_dan_Warna",
+        "url": "https://infor-app-galery.vercel.app/chatbotmu.html",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/chatmu-bg.jpg",
         "type" : "Chat Bot"
     }
