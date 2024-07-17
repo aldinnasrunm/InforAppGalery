@@ -72,7 +72,7 @@
             <!-- App items will be inserted here by jQuery -->
         </div>
     <h2 class="text-3xl font-semibold mb-8 mt-12">Additional Apps</h2>
-        <div id="additional-app-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 ">
+        <div id="additional-app-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 ">
         
         </div>
     </div>
@@ -134,10 +134,10 @@
 
                     var additionalAppItem =  
                     `<a href="${app.url}" target="_blank" class="no-underline text-current">
-                        <div class="app-card w-fit h-19 cursor-pointer flex flex-col item-center justify-between rounded-2xl bg-white p-4">
-                            <div class="appList border w-52 h-28 bg-cover rounded-2xl flex flex-col justify-center items-center" style="background-image: url('${app.icon}')">
+                        <div class="app-card w-fit h-19 cursor-pointer flex flex-col item-center justify-between rounded-2xl bg-white py-4 px-2">
+                            <div class="appList border border-slate-500 w-24 h-24 bg-cover rounded-full flex flex-col justify-center items-center mx-auto mt-3" style="background-image: url('${app.icon}')">
                             </div>
-                            <p class="font-medium w-52 text-xl w-full text-center mt-2 text-gray-950">${app.name}</p>
+                            <p class="font-medium w-60 text-xl w-full text-center mt-2 text-gray-950">${app.name}</p>
                             <div class="flex flex-row items-center w-fit justify-center mx-auto">
                                 <img src="${appIcon}" class="w-5 h-5 mr-2">
                                 <p class="text-lg text-slate-600">${app.type}</p>
