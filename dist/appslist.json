@@ -4,13 +4,15 @@
         "description": "Game SLB Rahmawati Kholid Karanganyar",
         "url": "https://slbrahmawatikholid.sch.id/game/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/game-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "web"
     },
     {
         "name": "Adinda Laundry",
         "description": "Laundry management system",
         "url": "https://www.adindalaundry.my.id/admin/dashboard",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg",         
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/laundry-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",      
         "type" : "web"
     },
 
@@ -20,6 +22,7 @@
         "description": "Detect stress levels using AI",
         "url": "https://stressdetection.streamlit.app/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/stresslevel-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "web"
     },
 
@@ -28,6 +31,7 @@
         "description": "Sistem keuangan untuk SMP Muhammadiyah Salatiga",
         "url": "https://simkeu.smpmuhsalatiga.sch.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/simkeu-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "web"
     },
     {
@@ -35,6 +39,7 @@
         "description": "Sistem Informasi Administrasi Bimbingan Konseling SMPN 02 Rejang Lebong",
         "url": "https://siabk-smpn02rl.my.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "web"
     },
     
@@ -43,6 +48,7 @@
         "description": "Sistem administrasi data perkara advokat Juned Wijayatmo & Rekan",
         "url": "http://kantor-advokat-jw.my.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/advokat-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "web"
     },
 
@@ -51,6 +57,7 @@
         "description": "Permainan tematik menyenangkan untuk anak kelas 2 SD ",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_downftn01.Game_Tematik",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/tematik-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
         "type" : "android"
     },
 
@@ -60,6 +67,16 @@
         "description": "Game pengenalan gambar untuk anak berkebutuhan khusus",
         "url": "https://play.google.com/store/apps/details?id=appinventor.ai_l200190102.Pengenalan_Bangun_Datar_dan_Warna",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
+        "type" : "android"
+    },
+
+    {
+        "name": "Gitea UMS",
+        "description": "Git Server Informatika UMS",
+        "url": "https://gitea.ums.ac.id/",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-gitea.svg",
         "type" : "android"
     }
 
