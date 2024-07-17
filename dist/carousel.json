@@ -1,0 +1,45 @@
+[
+    {
+        "name": "E-Presensi",
+        "description": "Online attendance system",
+        "url": "https://www.e-presensi.my.id",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg",
+        "type" : "web"
+    },
+    {
+        "name": "Wordwell",
+        "description": "AI bad word detection system",
+        "url": "https://fe-wordwell.vercel.app",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wordwell-bg.jpg",
+        "type" : "web"
+    }, 
+    {
+        "name": "Pajak Air RT",
+        "description": "Water tax management system",
+        "url": "http://pajakairrt.my.id/admin/login",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/water-bg.jpg",
+        "type" : "web"
+    },
+    {
+        "name": "Game Aksara Huruf usia dini",
+        "description": "Game belajar dengan aksara untuk anak usia dini",
+        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_alfianmakruf99.Aksara_Edugame",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/aksara-bg.jpg",
+        "type" : "android"
+    },
+    {
+        "name": "Mukmeen",
+        "description": "Aplikasi al-quran bahasa isyarat",
+        "url": "https://play.google.com/store/apps/details?id=com.chindo.mukmeen",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/mukmeen-bg.jpg",
+        "type" : "android"
+    },
+    {
+        "name": "ChatbotMU",
+        "description": "Chatbot seputar kemuhammadiyahan  untuk memberikan informasi otomatis melalui pesan teks",
+        "url": "https://infor-app-galery.vercel.app/chatbotmu.html",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/chatmu-bg.jpg",
+        "type" : "Chat Bot"
+    }
+
+]
