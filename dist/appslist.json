@@ -39,7 +39,7 @@
         "description": "Sistem Informasi Administrasi Bimbingan Konseling SMPN 02 Rejang Lebong",
         "url": "https://siabk-smpn02rl.my.id/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/siabk-bg.jpg",
-        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-slb.png",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-siabk.jpg",
         "type" : "web"
     },
     
