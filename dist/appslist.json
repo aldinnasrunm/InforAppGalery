@@ -78,6 +78,15 @@
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
         "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-gitea.svg",
         "type" : "web"
+    },
+
+    {
+        "name": "PBF Tool",
+        "description": "Personal Balance Feedback Sebagai Alat Diagnostik dan Terapi Gangguan Keseimbangan Pasca Stroke",
+        "url": "https://infor-app-galery.vercel.app/tools.html",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-pbf.jpg",
+        "type" : "Alat Inovasi"
     }
 
 ]

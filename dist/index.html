@@ -52,7 +52,7 @@
 </head>
 
 <body class="text-white font-sans px-24 py-12 flex flex-col w-screen h-screen scroll justify-between scroll-smooth overflow-x-hidden">
-    <div class="container mb-36">
+    <div class="container mb-36 mx-auto">
         <div class="hero-inner">
             <div class="image-logo flex flex-row px-4 py-4 mb-2 items-center justify-between rounded-full bg-white w-96">
                 <image src="./images/Resmi_Logo_UMS_Color_ShortText-768x300.png" alt="Informatika UMS" class="h-8 object-contain">
@@ -67,8 +67,8 @@
         </div>
     </div>
 
-    <div class="container app-list">
-        <div id="app-list" class="scrolling-wrapper space-x-4">
+    <div class="container app-list mx-auto">
+        <div id="app-list" class="scrolling-wrapper space-x-4 w-full">
             <!-- App items will be inserted here by jQuery -->
         </div>
     <h2 class="text-3xl font-semibold mb-8 mt-12">Additional Apps</h2>
@@ -137,7 +137,7 @@
                         <div class="app-card w-fit h-19 cursor-pointer flex flex-col item-center justify-between rounded-2xl bg-white py-4 px-2">
                             <div class="appList border border-slate-500 w-24 h-24 bg-cover rounded-full flex flex-col justify-center items-center mx-auto mt-3" style="background-image: url('${app.icon}')">
                             </div>
-                            <p class="font-medium w-60 text-xl w-full text-center mt-4 text-gray-950">${app.name}</p>
+                            <p class="font-medium w-64 text-xl w-full text-center mt-4 text-gray-950">${app.name}</p>
                             <div class="flex flex-row items-center w-fit justify-center mx-auto">
                                 <img src="${appIcon}" class="w-5 h-5 mr-2">
                                 <p class="text-lg text-slate-600">${app.type}</p>
