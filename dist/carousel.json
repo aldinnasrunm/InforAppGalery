@@ -3,14 +3,14 @@
         "name": "TanyaPDF",
         "description": "Berinteraksi dengan dokumenmu di TanyaPDF",
         "url": "https://tanyapdf.id/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/tanyapdf-bg.jpg",
         "type" : "web"
     },
     {
         "name": "Wellmind Journey",
         "description": "Berinteraksi dengan dokumenmu di TanyaPDF",
         "url": "https://tanyapdf.id/",
-        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/presensi-bg.jpg",
+        "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/wellmind-bg.jpg",
         "type" : "web"
     },
     {
