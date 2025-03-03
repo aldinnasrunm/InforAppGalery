@@ -681,10 +681,6 @@ video {
   height: 100vh;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -705,8 +701,8 @@ video {
   width: 18rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[17rem\] {
@@ -728,14 +724,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[96\] {
-  width: 96;
 }
 
 .flex-none {
