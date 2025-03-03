@@ -98,7 +98,7 @@
         "url": "https://kominfo-sragen.vercel.app/",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
         "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-kominfo.jpg",
-        "type" : "game"
+        "type" : "web"
     },
     {
         "name": "Simbah Njangkah",
@@ -106,7 +106,7 @@
         "url": "https://play.google.com/store/apps/details?id=com.nasrundev.simbahnjangkah",
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
         "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-simbah.jpg",
-        "type" : "game"
+        "type" : "android"
     }
 
 ]
