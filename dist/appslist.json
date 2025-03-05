@@ -107,6 +107,24 @@
         "bg": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/gameabk-bg.jpg",
         "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-simbah.jpg",
         "type" : "android"
+    },
+    {
+        "name": "AR Kupu-Kupu",
+        "description": "AR Kupu-kupu game for kids",
+        "url": "https://infor-app-galery.vercel.app/arkupu.html",
+        "bg": "https://infor-app-galery.vercel.app/arkupu.html",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-ar.png",
+        "type" : "android"
+    },
+    {
+        "name": "AR Bunga",
+        "description": "AR Bunga Aplication",
+        "url": "https://drive.google.com/drive/folders/1vPrn_D20qTJIW6g1-vpnZJbHZhPuNfCW",
+        "bg": "https://infor-app-galery.vercel.app/arkupu.html",
+        "icon": "https://raw.githubusercontent.com/aldinnasrunm/InforAppGalery/main/dist/images/logo-ar.png",
+        "type" : "android"
     }
 
+
+    
 ]
